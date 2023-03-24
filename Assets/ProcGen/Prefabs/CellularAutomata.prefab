@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6920590177640000580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6920590177640000586}
+  - component: {fileID: 8387645735095146483}
+  m_Layer: 0
+  m_Name: CellularAutomata
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6920590177640000586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6920590177640000580}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8387645735095146483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6920590177640000580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26a4fe7f54ddd04e92ef80d60a3839b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _caSettings: {fileID: 11400000, guid: 6d24427edc462ea4da00e749557669f5, type: 2}
+  _caCondition: {fileID: 11400000, guid: aa6b92abbe21b00459f7c3c67e724565, type: 2}
+  _variableGrid: {fileID: 11400000, guid: 148c5a0c40d518a41bdd2f4fabdb627c, type: 2}
+  _eventInitializeStates: {fileID: 11400000, guid: 0f5051cefe7a920498babc1eda27b6b1,
+    type: 2}
+  _eventRunIterations: {fileID: 11400000, guid: e9bb0164942da4b4fb9f1e9ecb9c0a37,
+    type: 2}
+  _eventStopIterations: {fileID: 11400000, guid: 218acac27edfddb4b9aa7a870becbde3,
+    type: 2}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1471559161385892787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1471559161385892797}
+  - component: {fileID: 1471559161385892796}
+  m_Layer: 0
+  m_Name: GridMaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471559161385892797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471559161385892787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1471559161385892796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471559161385892787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57db04d85b084c2469ab520a1cb37182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gridSettings: {fileID: 11400000, guid: 53c01276a761b664db2fd10d3e84f416, type: 2}
+  _floorStateData: {fileID: 11400000, guid: ef4e481133f8ebd40a2aadbff6094cd2, type: 2}
+  _defaultStateData: {fileID: 11400000, guid: 0435a4c7cb10fca4e85dddeec34fefdf, type: 2}
+  _cellPrefab: {fileID: 6475287969006150162, guid: 6f1e43084e2f5164783aa8fa883600e2,
+    type: 3}
+  _variableGrid: {fileID: 11400000, guid: 148c5a0c40d518a41bdd2f4fabdb627c, type: 2}
+  _eventCreateGrid: {fileID: 11400000, guid: edb4d41dbddb15249a821a50d991a276, type: 2}
+  _eventResetGrid: {fileID: 11400000, guid: 1dd7a4e048bb816419f78bc836c74a93, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d760564fe6d75da478230c72a163028a, type: 3}
+  m_Name: CAConditionGameOfLife
+  m_EditorClassIdentifier: 
+  UseMooreNeighbors: 1
+  _wallState: {fileID: 11400000, guid: b7307092efbc3c0409cccfa7b58f6df0, type: 2}
+  _floorState: {fileID: 11400000, guid: 3371bb207ea9d884ab123fa60e8b5792, type: 2}
+  _lonely: 0000000001000000
+  _overcrowded: 05000000060000000700000008000000
+  _lives: 020000000300000004000000
+  _birth: 020000000300000004000000
+  _barren: 000000000100000005000000060000000700000008000000

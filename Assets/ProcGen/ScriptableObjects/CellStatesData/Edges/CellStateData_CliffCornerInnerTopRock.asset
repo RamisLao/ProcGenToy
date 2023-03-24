@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b15659a0cace954dbea4f4e95300e48, type: 3}
+  m_Name: CellStateData_CliffCornerInnerTopRock
+  m_EditorClassIdentifier: 
+  ECellState: {fileID: 11400000, guid: d4e6ca095707ce547a054a3b59041b17, type: 2}
+  Mesh: {fileID: -7818625730958048263, guid: cf2bd5deca1f13d459e1475485062e09, type: 3}
+  Materials:
+  - {fileID: 2100000, guid: 06c9900cd19ea32408b6de99d8f12188, type: 2}
+  - {fileID: 2100000, guid: c6c2f62656ea8224991deb22528bdd1c, type: 2}
